@@ -1,0 +1,22 @@
+{
+  "name": "Harbor Stack",
+  "author": "Urmate",
+  "description": "A container-friendly theme with cyan, green, amber, and crisp neutral space.",
+  "tokens": {
+    "background": "#f2fbff",
+    "surface": "#ffffff",
+    "ink": "#10212b",
+    "muted": "#58717d",
+    "primary": "#118ab2",
+    "accent": "#06d6a0",
+    "secondary": "#f9c74f",
+    "line": "#cfe9f2"
+  },
+  "motion": {
+    "enter": "240ms container rise",
+    "feedback": "network sweep",
+    "emphasis": "service card lift"
+  },
+  "radius": "12px",
+  "shadow": "0 24px 66px rgba(17, 138, 178, 0.14)"
+}

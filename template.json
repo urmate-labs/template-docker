@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "docker",
+  "aliases": [],
+  "name": "Docker Service Stack",
+  "type": "starter",
+  "category": "container",
+  "author": "Urmate",
+  "createdAt": "2026-05-29",
+  "stack": [
+    "Docker",
+    "Nginx",
+    "Python"
+  ],
+  "tags": [
+    "docker",
+    "compose",
+    "frontend",
+    "backend"
+  ],
+  "path": "starters/docker",
+  "commands": {
+    "install": "docker compose build",
+    "dev": "docker compose up",
+    "build": "docker compose build",
+    "preview": "http://localhost:8080"
+  },
+  "features": [
+    "Frontend container",
+    "Backend container",
+    "Nginx API proxy",
+    "Theme metadata"
+  ],
+  "theme": {
+    "name": "Harbor Stack",
+    "description": "A container-friendly theme with cyan, green, amber, and crisp neutral space.",
+    "colors": {
+      "background": "#f2fbff",
+      "surface": "#ffffff",
+      "ink": "#10212b",
+      "muted": "#58717d",
+      "primary": "#118ab2",
+      "accent": "#06d6a0",
+      "secondary": "#f9c74f",
+      "line": "#cfe9f2"
+    },
+    "motion": {
+      "enter": "240ms container rise",
+      "feedback": "network sweep",
+      "emphasis": "service card lift"
+    },
+    "radius": "12px",
+    "shadow": "0 24px 66px rgba(17, 138, 178, 0.14)",
+    "author": "Urmate"
+  },
+  "builder": {
+    "compatibleWith": "Urmate Builder",
+    "starterMode": "template",
+    "previewPort": 8080,
+    "notes": "Copy the template folder into a new builder workspace and run the dev command."
+  }
+}
